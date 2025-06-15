@@ -1,0 +1,42 @@
+# Core ML libraries
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyter
+
+# Model deployment and packaging
+fastapi
+uvicorn
+pydantic
+
+# Experiment tracking
+mlflow
+
+# Data pipeline / orchestration
+apache-airflow==2.6.3
+
+# Distributed training & scaling
+ray[default]
+
+# Monitoring/logging
+prometheus-client
+opentelemetry-api
+opentelemetry-sdk
+
+# Optional - Visualization
+plotly
+dash
+
+# Git-based versioning
+dvc[s3]
+
+# For async web services
+httpx
+
+# For testing
+pytest
+
+# For notebook / Colab compatibility
+ipykernel
